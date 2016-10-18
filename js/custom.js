@@ -1,6 +1,16 @@
 $(document).ready(function(){
 
 
+    /*   filter jquery   */
+       $('.filter-content').on("click",function(e) { 
+         e.preventDefault();
+        });
+
+       $(function(){
+    var gallery = $('.idol-gallery-content a').simpleLightbox();
+  });
+
+
   // fixed nav menu
   // **************************
 
@@ -72,6 +82,12 @@ $(document).ready(function(){
              }  
            });
 
+          $('.primary-menu ul').on({
+             click: function (){
+             closeMenu();
+             }  
+           });
+
 
            function closeMenu(){
              $('body').removeClass('detail-menu-active');
@@ -79,6 +95,12 @@ $(document).ready(function(){
 
 
            $(".menu-box-bg").click(function () {
+               $(".top-menu").toggleClass("top-animate");
+               $(".mid-menu").toggleClass("mid-animate");
+               $(".bottom-menu").toggleClass("bottom-animate");
+           });
+
+           $(".primary-menu ul").click(function () {
                $(".top-menu").toggleClass("top-animate");
                $(".mid-menu").toggleClass("mid-animate");
                $(".bottom-menu").toggleClass("bottom-animate");
