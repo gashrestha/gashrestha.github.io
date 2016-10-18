@@ -37,7 +37,7 @@
 /* #Typography
 ================================================== */
     h1, h2, h3, h4, h5, h6 {
-        color: #C70017;
+        color: #76C34F;
         font-family: 'Roboto Slab', serif;
         margin: 0;
         line-height: 1.1;
@@ -63,7 +63,7 @@
     a, a:visited { color: inherit; text-decoration: none;  outline: 0; }
     a:focus{outline: 0;}
     a:hover, a:focus { 
-        color: #C70017; 
+        color: #76C34F; 
         text-decoration: none;
         -webkit-transition: all 0.3s ease-in-out 0s;
         -moz-transition: all 0.3s ease-in-out 0s;
@@ -165,7 +165,7 @@
 }
 .primary-menu li a:hover,
 .current a{
-    border-top: 2px solid rgb(199, 0, 23) !important;
+    border-top: 2px solid #76C34F !important;
     background-color: #464076;
 }
 .primary-menu li {
@@ -239,7 +239,7 @@
     color: rgb(255, 255, 255);
 }
 .read-more-button {
-    color: rgb(198, 0, 24) !important;
+    color: #76C34F !important;
     font-size: 15px;
     font-weight: 700;
     text-transform: capitalize;
@@ -352,7 +352,7 @@
     -o-transition: all 0.3s ease-in 0s;
 }
 .idol-gallery-content {
-    background: rgba(255, 107, 107, 0.8) none repeat scroll 0 0;
+    background: rgba(118, 195, 79, 0.8) none repeat scroll 0 0;
     bottom: 0;
     cursor: pointer;
     height: 100%;
@@ -391,7 +391,7 @@
     margin-right: 0;
 }
 .individual-team-description {
-    background: rgb(198, 0, 24) none repeat scroll 0 0;
+    background: rgb(118, 195, 79) none repeat scroll 0 0;
     color: rgb(255, 255, 255);
     padding: 7px 15px 5px;
 }
@@ -468,7 +468,7 @@ input {
 }
 textarea:focus,
 input:focus {
-    border-color: #C60018 !important;
+    border-color: #76C34F !important;
 }
 .contact-box textarea,
 .contact-box input {
@@ -532,7 +532,7 @@ textarea:-moz-placeholder { /* Firefox 18- */
     color: rgb(210, 208, 224);
 }
 .contact-section .social-profile-section a:hover{
-    color: #C60018;
+    color: #76C34F;
 }
 .contact-section .social-profile-section li {
     margin-left: 0;
@@ -555,10 +555,9 @@ textarea:-moz-placeholder { /* Firefox 18- */
     -ms-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
 }
-
 .site-footer {
-    background: rgb(198, 0, 24) none repeat scroll 0 0;
-    border-top: 25px solid rgb(137, 0, 17);
+    background: rgb(118, 195, 79) none repeat scroll 0 0;
+    border-top: 25px solid rgb(81, 136, 55);
     padding: 23px 0;
 }
 .copyright {
@@ -598,7 +597,7 @@ textarea:-moz-placeholder { /* Firefox 18- */
             z-index: 1;
         }
     .back-to-top a {
-            background-color: rgb(198, 0, 24);
+            background-color: #76C34F;
             color: rgb(255, 255, 255);
             display: block;
             font-family: "FontAwesome";
@@ -628,7 +627,7 @@ textarea:-moz-placeholder { /* Firefox 18- */
         }
 
 .sl-overlay{
-    background: rgb(101, 93, 171) none repeat scroll 0 0 !important;
+    background: rgb(118, 195, 79) none repeat scroll 0 0 !important;
 }
 .sl-wrapper button {
     color: rgb(255, 255, 255);
@@ -702,7 +701,7 @@ textarea:-moz-placeholder { /* Firefox 18- */
     z-index: 99;
   }
 #detail-menu > .icon-bar {
-    background: rgb(198, 0, 24) none repeat scroll 0 0;
+    background: #76C34F;
     border-radius: 3px;
     display: block;
     height: 5px;
@@ -808,7 +807,7 @@ textarea:-moz-placeholder { /* Firefox 18- */
     padding-top: 12px;
   }
   .detail-menu-active .primary-menu ul li a:hover, .primary-menu li a:hover, .current a {
-    background: rgb(198, 0, 24) none repeat scroll 0 0 !important;
+    background: #76C34F !important;
     color: #fff !important;
     border-top: none;
 }
@@ -859,7 +858,7 @@ textarea:-moz-placeholder { /* Firefox 18- */
     width: 210px;
 }
 .gallery-menu li {
-    background: rgb(198, 0, 24) none repeat scroll 0 0;
+    background: rgb(118, 195, 79) none repeat scroll 0 0;
     border-bottom: 1px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     display: block;
